@@ -12,3 +12,9 @@
 * **1**  PCB StripBoard 25x64mm
 * **1**  Deans connector (could be pretty much any other connector)
 * Some assorted wires
+
+## Future Parts
+### Parts I hope to use in the future (SUBJECT TO CHANGE)
+* **1**  LM1117T 3.3V Regulator
+* **1**  1S Li-Po ~200mAh
+* **1**  Arduin Pro Mini 328 (3.3V)
