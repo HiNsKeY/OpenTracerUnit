@@ -1,10 +1,10 @@
 ## Build of Materials
 
 * **1**  Arduino Pro Micro (ATmega 32U4)
-* **1**  10V Voltage regulator
-* **1**  5V Voltage Regulator
-* **1**  N-Channel MOSFET
-* **1**  47 KΩ Resistor
+* **1**  10V Voltage regulator (L7810CV)
+* **1**  5V Voltage Regulator (L7805CV)
+* **1**  N-Channel MOSFET (IRFZ44N)
+* **1**  47KΩ Resistor
 * **1**  10KΩ Resistor
 * **4**  10Ω Resistor
 * **1**  3mm IR LED transmitter and phototransistor
