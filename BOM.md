@@ -1,5 +1,6 @@
 ## Build of Materials
 
+* **1** Arduino Pro Micro (ATmega 32U4)
 * **1** 10V Voltage regulator
 * **1** 5V Voltage Regulator
 * **1** N-Channel MOSFET
