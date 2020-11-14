@@ -19,8 +19,9 @@ The project was started during lockdown partly due to boredom and partly because
 ## Future Improvements
 
 * Better power delivery with ability to build in USB charging (USB-C ideally)
-* Smaller battery, with ability to integrate it with design
+* Smaller battery, with ability to integrate it with design (1S Li-Po)
 * More guns added to CAD design library
+* Auto recalibrate if LED stays on for over X time
 
 ## In Progress
 
