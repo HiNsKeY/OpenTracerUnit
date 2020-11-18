@@ -1,9 +1,7 @@
 #include <Arduino.h>
 #include "initialisation.h"
-#include "pins.h"
-#include "variables.h"
 
-void intialisation_run() {
+void initialisation_run() {
     //Set pin modes
     pinMode(sensorled,OUTPUT);
     pinMode(tracerled,OUTPUT);
