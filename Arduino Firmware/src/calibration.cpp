@@ -1,7 +1,5 @@
 #include <Arduino.h>
 #include "calibration.h"
-#include "pins.h"
-#include "variables.h"
 
 int normal;
 int output; //To be deleted
