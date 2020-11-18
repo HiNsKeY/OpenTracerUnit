@@ -2,3 +2,4 @@
 #include "variables.h"
 
 void sensor_read();
+void sensor_decision();
