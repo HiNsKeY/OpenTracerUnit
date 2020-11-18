@@ -9,12 +9,14 @@
 void setup() { 
     diag_enable();
     initialisation_run();
+    startup_flash();
     calibration_run();
+    calibration_flash();
 }
 
 void loop() {
     sensor_read();
     diag_print();
+    sensor_decision();
     pulse_main();
-
 }
