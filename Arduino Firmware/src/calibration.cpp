@@ -2,7 +2,6 @@
 #include "calibration.h"
 
 int normal;
-int output; //To be deleted
 
 void calibration_run() {
     //Flash LEDs at power on
