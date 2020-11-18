@@ -3,6 +3,7 @@
 #include "diag.h"
 #include "initialisation.h"
 #include "calibration.h"
+#include "sensor.h"
 #include "pulse.h"
 
 void setup() { 
@@ -12,11 +13,8 @@ void setup() {
 }
 
 void loop() {
-    //Read IR sensor phototransistor output
-    output=analogRead(phototransistor);
-
+    sensor_read();
     diag_print();
-
     pulse_main();
 
 }
