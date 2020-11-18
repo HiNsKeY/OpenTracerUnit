@@ -9,8 +9,6 @@ void diag_enable() {
     {
         Serial.begin(9600);
     }
-    else
-    {}
 }
 
 void diag_print() {
@@ -19,6 +17,4 @@ if (diag==true)
 {
     Serial.println(output);
 }
-else
-{}
 }
