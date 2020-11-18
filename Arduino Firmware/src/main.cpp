@@ -5,10 +5,6 @@
 
 bool diag = false; //Enable Serial output for diag
 
-void initialisation_run();
-
-void calibration_run();
-
 void setup() { 
     // Start serial monitor ability (DIAG)
     if (diag==true)
@@ -17,6 +13,8 @@ void setup() {
     }
     else
     {}
+    initialisation_run();
+    calibration_run();
 }
 
 void loop() {
