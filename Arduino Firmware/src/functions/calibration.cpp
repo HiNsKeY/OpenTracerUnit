@@ -4,9 +4,9 @@
 int normal;
 
 void calibration_run() {
-    delay(500);
+    delay(200);
     normal=analogRead(phototransistor);
-    delay(500);   
+    delay(200);   
 }
 
 void calibration_flash() {
