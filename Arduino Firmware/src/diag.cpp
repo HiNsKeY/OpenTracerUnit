@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "diag.h"
 
-bool diag = false;
+bool diag = diagmode;
 
 void diag_enable() {
     // Start serial monitor ability (DIAG)

@@ -3,7 +3,7 @@
 #include "calibration.h"
 #include "sensor.h"
 
-int maxpulses = 20;
+//int maxpulses = 20;
 int pulses = 0;
 
 void pulse_main() {
