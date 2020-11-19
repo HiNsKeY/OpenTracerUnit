@@ -1,7 +1,5 @@
 #include <Arduino.h>
 #include "pulse.h"
-#include "calibration.h"
-#include "sensor.h"
 
 //int maxpulses = 20;
 int pulses = 0;
