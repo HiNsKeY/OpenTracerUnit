@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include "pulse.h"
 
-//int maxpulses = 20;
 int pulses = 0;
 
 void pulse_main() {
