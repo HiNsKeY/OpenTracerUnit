@@ -12,14 +12,15 @@ void initialisation_run() {
     digitalWrite(tracerled,LOW);
     digitalWrite(phototransistorsupply,HIGH);
 }
+
 void startup_flash() {
+    int flashes = 0;
     delay(1000);
-    digitalWrite(tracerled,HIGH);
-    delay(startupflash);
-    digitalWrite(tracerled,LOW);
-    delay(startupflash);
-    digitalWrite(tracerled,HIGH);
-    delay(startupflash);
-    digitalWrite(tracerled,LOW);
-    delay(startupflash);
+    while (flashes < startup_flashes) {
+        digitalWrite(tracerled,HIGH);
+        delay(startupflash);
+        digitalWrite(tracerled,LOW);
+        delay(startupflash);
+        flashes++;
+    }
 }

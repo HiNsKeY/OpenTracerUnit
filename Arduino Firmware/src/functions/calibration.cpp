@@ -10,16 +10,12 @@ void calibration_run() {
 }
 
 void calibration_flash() {
-    digitalWrite(tracerled,HIGH);
-    delay(startupflash);
-    digitalWrite(tracerled,LOW);
-    delay(startupflash);
-    digitalWrite(tracerled,HIGH);
-    delay(startupflash);
-    digitalWrite(tracerled,LOW);
-    delay(startupflash);
-    digitalWrite(tracerled,HIGH);
-    delay(startupflash);
-    digitalWrite(tracerled,LOW);
-    delay(startupflash);
+    int flashes = 0;
+    while (flashes < calibration_flashes) {
+        digitalWrite(tracerled,HIGH);
+        delay(startupflash);
+        digitalWrite(tracerled,LOW);
+        delay(startupflash);
+        flashes++;
+    }
 }
