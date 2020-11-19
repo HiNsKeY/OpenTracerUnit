@@ -27,7 +27,7 @@ The project was started during lockdown partly due to boredom and partly because
 * Slim down code to run as fast as possible
 
 ### Completed Improvements
-* Break code out into fucntions to simplify and make it easier to add features to
+* Break code out into functions to simplify and make it easier to add features to
 * Auto recalibrate if LED stays on for over X pulses
 
 ### Skills/Equipment Required
